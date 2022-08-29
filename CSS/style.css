@@ -1,0 +1,1304 @@
+/*Police+marge*/
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+main
+{
+    margin-left: 40px;
+}
+a
+{
+    color: black;
+}
+/*logo + nav*/
+.logo img
+{
+    height: 50px;
+    width: 110px;
+    margin-top: 40px;
+}
+header 
+{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+nav ul,nav li
+{
+    margin: 0%;
+    height: 100%;
+}
+nav
+{
+    height: 50%;
+    margin-top:-14px;
+}
+.head
+{
+    box-sizing: border-box;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+}
+.men ul
+{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+ul li 
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    margin-left: -25%; 
+}
+.men ul li a:hover
+{
+    border-top: 2px solid #0065FC;
+   
+    color: #0065FC;
+}
+.men li a
+{
+    border-top: 1px solid #FFFFFF;
+    padding-top: 60px;
+}
+/*Texte trouver*/
+.mini
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.mini p
+{
+    font-size: 80%;
+    margin-top: -15px;
+}
+/*Barre recherche*/
+form
+{
+    padding-left: 1%;
+}
+.submit
+{
+    color: rgb(255, 255, 255);
+    background-color: rgba(82, 191, 242, 0.964);
+}
+/*form
+{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5%;
+
+}*/
+body form >i                                                                                                                                                                  
+{
+    background-color:#F2F2F2;
+    text-align: start;
+    padding: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+body form input[type=search]
+{
+    height: 40px;
+    border: 0.5px solid ghostwhite;
+    color: black;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+
+
+}
+body form button
+{
+    background-color: #0065FC;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+main form button i
+{
+    display: none!important;
+}
+/*Filtre + mini texte*/
+.filtre
+{
+    width: 100%;
+    margin-top: 70px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.filtre li
+{
+    display: flex; 
+    flex-direction: row;
+    margin-right: 15px;
+   
+}
+.filtre ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+
+}
+.filtre p
+{
+    font-weight: bold;
+    margin-top: 30px;
+    padding-left: 2%;
+    margin-right: 20px;
+}     
+.filtre i 
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    justify-content: center;
+    border-radius: 80px;
+    padding: 15px;
+
+} 
+.filtre a
+{
+    height : 50px;
+    margin: 0px 12px 0px 10px;
+    color: black;
+    font-weight: bold;
+}
+.element
+{
+    border-radius: 50px;
+    border: 2px solid #F2F2F2;
+}
+.info
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline
+
+}
+.info i
+{
+    padding: 3px 7px 3px 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 80px;
+    border: 0.5px solid rgb(185, 185, 185);
+    color: #0065FC;
+    font-size: 50%;
+}
+.info span
+{
+    font-size: 55%;
+    font-weight:lighter;
+}
+.element:hover
+{
+    background-color: #0065FC;
+    box-shadow : 8px 8px 12px rgb(150, 150, 150);
+}
+/*Hebergement part*/
+.encadre
+{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    margin: 30px auto 0 auto;
+}
+.encadre h4 , .popu h4
+{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.encadre p
+{
+    font-size: small;
+}
+.ha
+{
+    padding-left: 15px;
+}
+.heber
+{
+    width: 65%;
+    margin-right: auto;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.card img
+{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+
+}
+.card
+{
+    width: 30%;
+    height: 110%;
+    background-color: white;
+    color: black;
+    padding: 9px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.card i
+{
+    color: #0065FC;
+}
+.contain
+{
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card:hover
+{
+    background-color: #8ebbff;
+    transition-duration: 2s;
+    transition-property: background-color;
+    box-shadow : 8px 8px 12px rgb(150, 150, 150);
+}
+/*Populaire part*/
+.popu
+{
+    background-color: #F2F2F2;
+    width: 25%;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.popust
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.containn
+{
+    width: 100%;
+    display: flex;
+}
+.ligne
+{
+    width: 70%;
+    height: 160px;
+
+}
+.align
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+.cardd img
+{
+    border-radius: 20px 0px 0px 20px;
+    width: 40%;
+    height: 160px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.cardd img
+{
+    border-radius: 20px 0px 0px 20px;
+    width: 40%;
+    height: 160px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.img
+{
+    width: 114.2%;
+}
+.cardd
+{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF ;
+    color: black;
+    padding: 6px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.cardd i
+{
+    color: #0065FC;
+}
+.cardd:hover:hover
+{
+    background-color: #ffdb79;
+    transition-duration: 2s;
+    transition-property: background-color;
+    box-shadow : 8px 8px 12px rgb(150, 150, 150);
+}
+.ligne .star
+{
+    margin-top: 70px;
+}
+/*Activite part*/
+.activite
+{
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.actimg
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.actcardun
+{
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow : 2px 2px 3px lightgray;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.actcardun img
+{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 450px;
+    object-fit: cover;
+}
+.actcarddeux
+{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow : 2px 2px 3px lightgray;
+}
+.actcarddeux img
+{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    object-fit: cover;
+}
+.actcardtrois
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+.actcardtrois img
+{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 160px;
+    object-fit: cover;
+}
+.actcardquatre
+{
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow : 2px 2px 3px lightgray;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.actcardquatre img
+{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 450px;
+    object-fit: cover;
+}
+.actcardcinq
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+.actcardcinq img
+{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 190px;
+    object-fit: cover;
+}
+.actcardsix
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+.actcardsix img
+{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 190px;
+    object-fit: cover;
+}
+.actimg h4
+{
+    padding-left: 10px;
+    color: black;
+}
+.columnact
+{
+    width: 25%;
+}
+.spcard
+{
+    box-shadow : 2px 2px 3px lightgray;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+.actcardun:hover
+{
+    background-color: #f18888;
+    transition-duration: 2s;
+    transition-property: background-color;
+    box-shadow : 8px 8px 12px rgb(150, 150, 150);
+}
+.actcardquatre:hover
+{
+    background-color: #f18888;
+    transition-duration: 2s;
+    transition-property: background-color;
+    box-shadow : 8px 8px 12px rgb(150, 150, 150);
+}
+.spcard:hover
+{
+    background-color: #f18888;
+    transition-duration: 2s;
+    transition-property: background-color;
+    box-shadow : 8px 8px 12px rgb(150, 150, 150);
+}
+/*Footer part*/
+footer
+{
+    width: 100%;
+    background-color: #F2F2F2;
+
+}
+.foot
+{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.footun
+{
+    display: flex;
+    flex-direction: column;
+}
+.footun ul a:hover
+{
+    color: red;
+}
+.footun ul li
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.footdeux
+{
+    display: flex;
+    flex-direction: column;
+}
+.footdeux ul a:hover
+{
+    color: red;
+}
+.footdeux ul li
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+}
+
+.foottrois
+{
+    display: flex;
+    flex-direction: column;
+}
+.foottrois ul a:hover
+{
+    color: red;
+}
+.foottrois ul li
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+
+}
+.foottrois h4
+
+{
+    padding-left: 10px;
+}
+/* Partie Mobile */
+@media screen and (max-width: 768px)
+{
+@media screen and (max-width: 360px)
+{}
+    .logo img
+    {
+    height: 50px;
+    width: 110px;
+    margin-top: 20px;
+    }
+    .mini 
+    {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-left: -15px;
+    }
+    .men li a
+    {
+    border-top: 1px solid #ffffff;
+    border-bottom: 2px solid #e2e2e2;
+    padding-top: 60px;
+    }
+    .men ul li a:hover
+    {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC;
+    }
+    .head
+    {
+    box-sizing: border-box;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0%;
+    padding-right: 0%;
+    align-items: center;
+    }
+    nav
+    {
+    width: 100%;
+    }
+    .men ul
+    {
+    padding: 0px;
+    }
+    .men ul li 
+    {
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    }
+    .men ul li a
+    {
+    width: 100%;
+    text-align: center;
+    }
+    form 
+    {
+    margin-left: -15px;
+    }
+    /*Barre recherche*/
+    body form button 
+    {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    padding: 10px;
+    }
+    body form button span
+    {
+    display: none;
+    }
+    main form button i
+    {
+    display:block!important;
+    }
+    /*Filtre*/
+    .filtre
+    {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    } 
+    .filtre ul
+    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: flex-start;
+    margin-left: 0px;
+    padding-left: 0px;
+    }
+    .filtre li
+    {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 5px;
+    padding-bottom: 10px;
+    }
+    /*Hebergement*/
+    .info 
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: -20px;
+    }
+    .encadre
+    {
+    display: flex;
+    flex-direction:column-reverse;
+    width: 100%;
+    margin-left: -50px;;
+    }
+    .heber
+    {
+    width: 100%;
+    margin-right: auto;
+    background-color: #ffffff;
+    }
+    .contain
+    {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    }
+    .card img
+    {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    }
+    .card
+    {
+    width: 100%;
+    height: 110%;
+    background-color: white;
+    color: black;
+    padding: 9px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow : 0px 0px 4px rgb(236, 236, 236);
+    }
+    .card i
+    {
+    color: #0065FC;
+    }
+    .encadre h4 , .popu h4
+    {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    }
+    .encadre p 
+    {
+    font-size: small;
+    padding-left: 10px;
+    }
+    .card .star
+    {
+    padding-left: 10px;
+    margin-top: -10px;
+    }
+    .card img
+    {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    }
+    /*popu*/
+    .popu
+    {
+    background-color: #F2F2F2;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 0px;
+    }
+    .popust
+    {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 40px;
+    }
+    .containn
+    {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    }
+    .cardd img
+    {
+    border-radius: 20px 0px 0px 20px;
+    width: 40%;
+    height: 130px;
+    object-fit: cover;
+    margin-right: 10px;
+    }
+    .cardd
+    {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF ;
+    color: black;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 3px #ededed;
+    }
+    .align
+    {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    }
+    .ligne
+    {
+    width: 60%;
+    height: 130px;
+    margin-top: 10px;
+    }
+    .cardd .star
+    {
+    padding-left: 10px;
+    margin-top: 40px;
+    }
+    .activite
+    {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .actimg
+    {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .actcardun img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcarddeux img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardtrois img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardquatre img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardcinq img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardsix img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardun
+    {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow : 2px 2px 3px lightgray;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: -20px
+    }
+    .actcarddeux
+    {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left: -20px;
+    box-shadow : 2px 2px 3px lightgray;
+    }
+    .actcardtrois
+    {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: -20px;
+    }
+    .actcardquatre
+    {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow : 2px 2px 3px lightgray;
+    margin-right: 40px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    }
+    .actcardcinq
+    {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    margin-left: -20px;
+    }
+    .actcardsix
+    {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: -20px;
+    }
+    .columnact
+    {
+    width: 100%;
+    margin-left: -20px;
+    }
+    .foot
+    {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 50px;
+    }
+    .footdeux ul
+    {
+        padding-left: 57px;
+    }
+    .foottrois h4 
+    {
+    padding-left: 0px;
+    }
+    .foottrois ul
+    {
+        padding-left: 57px;
+        margin-bottom: 90px;
+    }
+}
+/* Partie Tablette */
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .logo img
+    {
+    height: 50px;
+    width: 110px;
+    margin-top: 20px;
+    }
+    .mini 
+    {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-left: -15px;
+    }
+    .men li a
+    {
+    border-top: 1px solid #ffffff;
+    border-bottom: 2px solid #e2e2e2;
+    padding-top: 60px;
+    }
+    .men ul li a:hover
+    {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC;
+    }
+    .head
+    {
+    box-sizing: border-box;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0%;
+    padding-right: 0%;
+    align-items: center;
+    }
+    nav
+    {
+    width: 100%;
+    }
+    .men ul
+    {
+    padding: 0px;
+    }
+    .men ul li 
+    {
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    }
+    .men ul li a
+    {
+    width: 100%;
+    text-align: center;
+    }
+    form 
+    {
+    margin-left: -15px;
+    }
+    /*Barre recherche*/
+    body form button 
+    {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    padding: 10px;
+    }
+    body form button span
+    {
+    display: none;
+    }
+    main form button i
+    {
+    display:block!important;
+    }
+    /*Filtre*/
+    .filtre
+    {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    } 
+    .filtre ul
+    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: flex-start;
+    margin-left: 0px;
+    padding-left: 0px;
+    }
+    .filtre li
+    {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 5px;
+    padding-bottom: 10px;
+    }
+    /*Hebergement*/
+    .info 
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: -20px;
+    }
+    .encadre
+    {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin-left: -50px;;
+    }
+    .heber
+    {
+    width: 100%;
+    margin-right: auto;
+    background-color: #ffffff;
+    }
+    .contain
+    {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    }
+    .card img
+    {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    }
+    .card
+    {
+    width: 45%;
+    height: 110%;
+    background-color: white;
+    color: black;
+    padding: 9px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow : 0px 0px 4px rgb(236, 236, 236);
+    }
+    .card i
+    {
+    color: #0065FC;
+    }
+    .encadre h4 , .popu h4
+    {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    }
+    .encadre p 
+    {
+    font-size: small;
+    padding-left: 10px;
+    }
+    .card .star
+    {
+    padding-left: 10px;
+    margin-top: -10px;
+    }
+    .card img
+    {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    }
+    /*popu*/
+    .popu
+    {
+    background-color: #F2F2F2;
+    width: 98.7%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 0px;
+    }
+    .popust
+    {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 40px;
+    }
+    .containn
+    {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    }
+    .cardd img
+    {
+    border-radius: 20px 0px 0px 20px;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    margin-right: 10px;
+    }
+    .cardd
+    {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF ;
+    color: black;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 3px #ededed;
+    }
+    .align
+    {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    }
+    .cardd .star
+    {
+    padding-left: 10px;
+    margin-top: -10px;
+    }
+    /*activite*/
+    .activite
+    {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .actimg
+    {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+    .actcardun img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 340px;
+    object-fit: cover;
+    }
+    .actcarddeux img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardtrois img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardquatre img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 340px;
+    object-fit: cover;
+    }
+    .actcardcinq img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardsix img
+    {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    object-fit: cover;
+    }
+    .actcardun
+    {
+    width: 100%;
+
+    background-color: white;
+    }
+    .actcarddeux
+    {
+    width: 100%;
+    background-color: white;
+    }
+    .actcardtrois
+    {
+    width: 100%;
+    background-color: white;
+    }
+    .actcardquatre
+    {
+    width: 100%;
+    background-color: white;
+    }
+    .actcardcinq
+    {
+    width: 100%;
+    background-color: white;
+    }
+    .actcardsix
+    {
+    width: 100%;
+    background-color: white;
+    }
+    .columnact
+    {
+    width: 100%;
+    margin-left: -20px;
+    }
+    /*footer*/
+    .foot
+    {
+        width: 97%;
+        margin: auto;
+    }
+}
